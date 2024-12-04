@@ -22,7 +22,7 @@ def test_policy(policy, policy_name, env, num_episodes=NUM_EPISODES):
       
 
         # Simulate for num_episodes
-        for ep in range(num_episodes):
+        for ep in range(200):
             action = policy.get_action(observation, info)
             observation, reward, terminated, truncated, info = env.step(action)
             if terminated or truncated:
