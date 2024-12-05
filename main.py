@@ -14,7 +14,7 @@ NUM_EPISODES = 100
 #     num_episodes = NUM_EPISODES
 
     
-#     policies = [GreedyPolicy(), RandomPolicy(), GeneticPolicy()]
+#     policies = [GreedyPolicy(), RandomPolicy(), Policy2310139_2310090_2310191_2310242_2310423()]
 #   # Ensure the same seed is used for all runs
 
 #     # Run the test for each policy 3 times
@@ -39,7 +39,7 @@ NUM_EPISODES = 100
 #             print(info['filled_ratio'])
 
 #     # Compute and print the average for each policy
-  
+
 #     env.close()
 
 if __name__ == "__main__":
